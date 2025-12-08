@@ -1,1 +1,1 @@
-# miniLMS
+# Educore Platform
