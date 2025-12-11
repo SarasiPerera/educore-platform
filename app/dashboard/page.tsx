@@ -39,9 +39,15 @@ export default function Dashboard() {
             <p className="text-sm text-blue-600 font-semibold">Role: Student</p>
           </div>
 
-          <button className="ml-auto px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+          {/* <button className="ml-auto px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
             Edit Profile
-          </button>
+          </button> */}
+          <Link
+            href="/dashboard/edit-profile"
+            className="ml-auto px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+          >
+            Edit Profile
+          </Link>
         </div>
 
         {/* Courses + Add Course */}
