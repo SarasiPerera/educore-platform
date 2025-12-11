@@ -13,6 +13,7 @@ export default function Dashboard() {
           <p>Courses</p>
           <p>Notifications</p>
           <p>Settings</p>
+
           {/* <p>Logout</p> */}
           {/* <Link
             href="/logout"
