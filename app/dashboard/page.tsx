@@ -1,3 +1,6 @@
+import Link from "next/link";
+import LogoutButton from "@/components/LogoutButton";
+
 export default function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-100 flex">
@@ -10,13 +13,17 @@ export default function Dashboard() {
           <p>Courses</p>
           <p>Notifications</p>
           <p>Settings</p>
-          <p>Logout</p>
+          {/* <p>Logout</p> */}
+          {/* <Link
+            href="/logout"
+            className="text-red-500 font-semibold hover:text-red-600"
+          ></Link> */}
+          <LogoutButton />
         </nav>
       </aside>
 
       {/* Main Content */}
       <main className="flex-1 p-6 md:p-10">
-        
         {/* Profile Card */}
         <div className="bg-white p-6 rounded-xl shadow flex items-center gap-6 mb-6">
           <img
